@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/main_activity_pic"
+            android:layout_marginBottom="50dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's Build"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textFontWeight="bold"
+            android:textStyle="bold"
+            android:layout_marginBottom="0dp"
+            android:textSize="45dp"
+            android:textColor="#3F3F3F"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Feed"
+            android:layout_marginTop="0dp"
+            android:paddingTop="0dp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="48dp"
+            android:textColor="#3F3F3F"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="20dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GET STARTED"
+                android:textColor="#FFFFFF"
+                android:background="#FF8100"
+                android:layout_alignParentBottom="true"
+                android:onClick="openSignIn"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
